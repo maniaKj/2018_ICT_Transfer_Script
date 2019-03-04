@@ -22,6 +22,7 @@ Player_RM function(손 애니메이션) - https://github.com/maniaKj/2018_ICT_Tr
 ///////////////////////////////////
 
 홀로그램 컴포넌트-------------
+
 Obj_Module_Operation (입력 데이터 체크) - https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Unity_Transfer/script/Object/Obj_Module_Operation.cs
 
 Puzzle_Hologram_Repository_2 (초기화 & 오브젝트 관리) - https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Unity_Transfer/script/Object/Puzzle_Hologram_Repository_2.cs
@@ -32,6 +33,7 @@ Module_Lable(데이터 전송 & 흡수 상호작용) - https://github.com/maniaK
 //////////////////////////////
 
 데이터 노드-----------
+
 Obj_Module_Operation(입력 데이터 체크) - https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Unity_Transfer/script/Object/Obj_Module_Operation.cs
 
 Circuit_Node(데이터/타 오브젝트 상호작용) - https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Unity_Transfer/script/Object/Circuit_Node.cs
