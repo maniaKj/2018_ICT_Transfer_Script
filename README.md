@@ -3,3 +3,4 @@
 
 코드 중 핵심 오브젝트의 컴포넌트에 대해서만 간략 정리
 
+https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Unity_Transfer/script/DLB.cs
