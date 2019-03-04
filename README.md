@@ -1,7 +1,7 @@
 # 2018_ICT_Transfer_Script
 2018 한이음 ICT 출품작 'Transfer' 소스 코드
 
-https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/title.png
+![alt text](https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/title.png)
 
 영상 url :
 https://youtu.be/BaW5Ap3TsZw
