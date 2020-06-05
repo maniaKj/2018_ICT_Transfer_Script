@@ -3,47 +3,27 @@
 
 ![alt text](https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/title.png)
 
-영상 url :
-https://youtu.be/BaW5Ap3TsZw
-https://youtu.be/1iOuXr54z6U
 
-코드 중 핵심 오브젝트의 컴포넌트에 대해서만 간략 정리해 보았습니다.
+# Youtube Link
 
-플레이어 컴포넌트-----------
+[소개 영상](https://youtu.be/BaW5Ap3TsZw)
 
-FirstPerson_move(이동) - https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Unity_Transfer/script/Player/FirstPerson_move.cs
+[플레이 & 기능 설명 영상](https://youtu.be/1iOuXr54z6U)
 
-Photo_Identify_Result(홀로그램 인식) - https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Unity_Transfer/script/Player/Photo_Identification.cs
 
-Show_Identigy_Result(인식 결과 표시) - https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Unity_Transfer/script/Player/Show_Identify_Result.cs
+# Script
 
-Aim_UI(조준점 UI) - https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Unity_Transfer/script/Player/Aim_UI.cs
-Player_shot(데이터 흡수 & 전송 상호작용) - https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Unity_Transfer/script/Player/player_shot.cs
+[FirstPerson_move(이동)](https://github.com/wlsvy/2018_ICT_Transfer_Script/blob/master/script/Player/FirstPerson_move.cs)
+ : 플레이어 이동 스크립트
 
-Player_RM function(손 애니메이션) - https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Unity_Transfer/script/Player/player_RMfunction.cs
-///////////////////////////////////
+[Photo_Identification(홀로그램 인식)](https://github.com/wlsvy/2018_ICT_Transfer_Script/blob/master/script/Player/Photo_Identification.cs)
+ : 플레이어 전방의 이미지를 캡쳐해서 서버로 전송시킵니다. 서버의 응답을 받으면 해당 데이터를 처리합니다. Unity의 www form을 활용하였습니다.
 
-홀로그램 컴포넌트-------------
+[HologramObject (이펙트, 플레이어 상호작용)](https://github.com/wlsvy/2018_ICT_Transfer_Script/blob/master/script/Object/HologramObject.cs)
+ : 게임 내 퍼즐을 해결하기 위한 단서를 가지고 있는 홀로그램 오브젝트 입니다.
 
-Obj_Module_Operation (입력 데이터 체크) - https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Unity_Transfer/script/Object/Obj_Module_Operation.cs
+[TransferableDataObject(전송데이터)](https://github.com/wlsvy/2018_ICT_Transfer_Script/blob/master/script/Object/TransferableDataObject.cs)
+ : 플레이어의 총을 통해 흡수 / 전송 하는 전송데이터 오브젝트 입니다.
 
-Puzzle_Hologram_Repository_2 (초기화 & 오브젝트 관리) - https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Unity_Transfer/script/Object/Puzzle_Hologram_Repository_2.cs
-
-Data_Hologram (이펙트, 플레이어 상호작용) - https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Unity_Transfer/script/Object/Data_Hologram.cs
-
-Module_Lable(데이터 전송 & 흡수 상호작용) - https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Unity_Transfer/script/Object/Module_Lable.cs
-//////////////////////////////
-
-데이터 노드-----------
-
-Obj_Module_Operation(입력 데이터 체크) - https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Unity_Transfer/script/Object/Obj_Module_Operation.cs
-
-Circuit_Node(데이터/타 오브젝트 상호작용) - https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Unity_Transfer/script/Object/Circuit_Node.cs
-
-Module_Lable(데이터 전송 & 흡수 상호작용) - https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Unity_Transfer/script/Object/Module_Lable.cs
-/////////////////////////////
-
-쉐이더 
-홀로그램 Dissolve - https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/Shader/3D_Hologram.shader
-
-초보라 코드가 너저분하기 짝이 없습니다 
+[3D_Hologram (홀로그램 쉐이더)](https://github.com/wlsvy/2018_ICT_Transfer_Script/blob/master/script/Shader/3D_Hologram.shader)
+ : 홀로그램 Material 에 사용되는 쉐이더입니다. 홀로그램의 사라질 때 Dissolve 효과를 활용할 수 있도록 구현하였습니다.
