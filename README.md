@@ -1,18 +1,26 @@
-# 2018_ICT_Transfer_Script
-2018 한이음 ICT 출품작 'Transfer' 소스 코드
+# Transfer
+
+> #### 서울과학기술대학교 게임 프로그래밍 동아리 Plum 작품, 2018 한이음 ICT 출품작
+
+1인칭 FPS 퍼즐게임, 유니티 엔진을 기반으로 개발되었습니다.   
+
+밸브 '포탈'에서 인상을 받고 기획하였으며, 특정 도구를 플레이어가 데이터 형태로 전송(transfer)받거나 전송하여 퍼즐을 해결합니다.
+
+
+#### 아래 링크에서 유튜브 플레이 영상을 확인하실 수 있습니다.
+
+- [소개 영상](https://youtu.be/BaW5Ap3TsZw)
+- [플레이 & 기능 설명 영상](https://youtu.be/1iOuXr54z6U)
 
 ![alt text](https://github.com/maniaKj/2018_ICT_Transfer_Script/blob/master/title.png)
 
 
-# Youtube Link
-
-[소개 영상](https://youtu.be/BaW5Ap3TsZw)
-
-[플레이 & 기능 설명 영상](https://youtu.be/1iOuXr54z6U)
 
 
 # Script
-
+<details>
+ <summary>fold/unfold</summary> <br>
+ 
 [FirstPerson_move(이동)](https://github.com/wlsvy/2018_ICT_Transfer_Script/blob/master/script/Player/FirstPerson_move.cs)
  : 플레이어 이동 스크립트
 
@@ -27,3 +35,5 @@
 
 [3D_Hologram (홀로그램 쉐이더)](https://github.com/wlsvy/2018_ICT_Transfer_Script/blob/master/script/Shader/3D_Hologram.shader)
  : 홀로그램 Material 에 사용되는 쉐이더입니다. 홀로그램의 사라질 때 Dissolve 효과를 활용할 수 있도록 구현하였습니다.
+ 
+ </details>
