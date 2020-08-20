@@ -17,7 +17,7 @@
 
 ##### 활용 언어 및 엔진
 -	Unity
--	C
+-	C#
 -	shaderLab
 
 # Script
